@@ -116,7 +116,12 @@ window.SITE = {
   /* ---------- PARTNERS (Home & Partner pages) ----------
      Only list organisations Sponsorship & Partnership has cleared for public use. */
   partners: [
-    // { name: "Company name", logo: "assets/partners/company.png", url: "https://…" },
+    { name: "Women Advocates Research & Documentation Centre (WARDC)", logo: "assets/partners/wardc.png", url: "" },
+    { name: "Centre for Women's Health and Information (CEWHIN)", logo: "assets/partners/cewhin.png", url: "" },
+    { name: "Flo Haven Initiative", logo: "assets/partners/flo-haven.png", url: "" },
+    { name: "Cysters", logo: "assets/partners/cysters.png", url: "" },
+    { name: "The Cardio Health", logo: "assets/partners/cardio-health.png", url: "" },
+    { name: "ICHAD UNILAG", logo: "assets/partners/ichad.png", url: "" }
   ],
 
   /* ---------- LEADERSHIP (Leadership page) ----------

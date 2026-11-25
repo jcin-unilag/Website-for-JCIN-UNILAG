@@ -516,3 +516,5 @@ img.hs.xl{border-radius:24px}
 .up-col li{font-size:14.5px;color:#D8D6E6}
 @media (max-width:1100px){.pc-grid{grid-template-columns:1fr 1fr}.up-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:620px){.pc-grid,.up-grid{grid-template-columns:1fr}}
+.partner-logo{border-style:solid !important;border-color:transparent !important}
+.partner-logo img{max-height:72px;max-width:100%;object-fit:contain}
