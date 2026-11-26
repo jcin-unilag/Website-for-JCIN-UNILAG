@@ -18,6 +18,11 @@
 
 window.SITE = {
 
+  /* ---------- PROTOTYPE BANNER ----------
+     The thin black strip at the top of every page.
+     Change true to false on launch day to remove it everywhere. */
+  showPrototypeBanner: true,
+
   /* ---------- CONTACT & LINKS ---------- */
   contact: {
     email: "jciuniversityoflagos@gmail.com",     // official LO email

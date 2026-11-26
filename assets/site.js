@@ -17,6 +17,14 @@
       : esc(label) + " " + TBC;
   }
 
+  /* ---------- Prototype banner (switch in content/site-data.js) ---------- */
+  if (S.showPrototypeBanner) {
+    var pb = document.createElement("div");
+    pb.className = "proto";
+    pb.innerHTML = 'Website preview · <b>Yellow "TBC" tags</b> mark content we\'re still waiting on';
+    document.body.insertBefore(pb, document.body.firstChild);
+  }
+
   /* ---------- Header ---------- */
   /* Mega-menus, modelled on jci.cc: each column = heading + photo + links.
      Photos come from SITE.menuPhotos in content/site-data.js. */
